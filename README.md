@@ -40,13 +40,13 @@ Use ‘j’ option in tar command to use bzip2 compression, this time tar backup
 
 To exclude a file while creating tar backup, use ‘-X’ option followed by the exclude file. To use exclude feature we must create a exclude file which will have file name to be excluded.
 
-`
-$ cat exclude.txt
+`$ cat exclude.txt`
 
-/etc/debconf.conf
+`/etc/debconf.conf`
 
-/etc/hosts
-$ `
+`/etc/hosts`
+
+`$ `
 
 Run following command to exclude files mentioned in exclude.txt while creating tar backup of /etc
 
@@ -58,5 +58,19 @@ Run following command to exclude files mentioned in exclude.txt while creating t
 To view the contents of tar backup, use ‘-t’ option, complete options would be ‘-tvf’. Example is shown below:
 
 `$ sudo tar -tvf system-back.tgz | grep -i etc/fstab`
--rw-rw-r-- root/root    665 2021-07-07 04:57 etc/fstab
-$
+
+`-rw-rw-r-- root/root    665 2021-07-07 04:57 etc/fstab`
+
+`$`
+
+**How to extract tar backup?**
+
+Use ‘-x’ option in tar command to extract tar backup, complete option would be ‘-xpvf’. Example is shown below
+
+`$ sudo tar -xpvf system-back.tgz`
+
+This command will extract system-back.tgz in the current working directory. In case you want extract it in a particular folder then use ‘-C’ option followed by the folder path. In the following example we are extracting system-back.tgz in /var/tmp folder.
+
+`$ sudo tar -xpvf system-back.tgz -C /var/tmp/`
+
+`$ ls -l /var/tmp/`
