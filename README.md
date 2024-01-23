@@ -1,5 +1,8 @@
 # Common VM Config Changes #
+## Common packages to install on fresh install
+`apt install qemu-guest-agent`
 
+`apt install nfs-common`
 ## Mounting NFS Shares
 
 1. On the host itself, ensure that nfs-common is installed `apt install nfs-common`
