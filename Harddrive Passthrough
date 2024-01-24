@@ -1,3 +1,5 @@
+# Pass harddrives through t VMs
+
 1 Install lshw on PVE
 
 1.1 Bring up terminal from PVE directly or via SSH or by using “Shell” from PVE web gui
