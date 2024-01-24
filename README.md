@@ -3,6 +3,11 @@
 `apt install qemu-guest-agent`
 
 `apt install nfs-common`
+
+`apt install docker.io`
+
+`apt install docker-compose`
+
 ## Mounting NFS Shares
 
 1. On the host itself, ensure that nfs-common is installed `apt install nfs-common`
