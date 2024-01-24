@@ -1,6 +1,6 @@
 # How to create tar backup file?
 
-**Creating tar backup file
+**Creating tar backup file**
 
 To create a tar backup file, first identify the files and folders that would be part of your backup. Let’s assume we want to take backup of /home/linuxtechi, /etc and /opt folder. Run following tar command,
 
