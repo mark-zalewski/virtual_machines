@@ -3,5 +3,3 @@
 10.0.10.235:/mnt/pompeii/primary_torrents /mnt/primary_torrents nfs defaults 0 0
 10.0.10.235:/mnt/pompeii/primary_torrents_tv /mnt/primary_torrents_tv nfs defaults 0 0
 10.0.10.235:/mnt/pompeii/usenet /mnt/usenet nfs defaults 0 0
-10.0.10.224:/volume2/Paperless /mnt/paperless nfs defaults 0 0
-10.0.10.224:/volume2/transfer /mnt/transfer nfs defaults 0 0
