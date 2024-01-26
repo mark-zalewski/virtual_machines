@@ -1,5 +1,6 @@
-10.0.10.224:/volume2/Movies /mnt/movies nfs defaults 0 0
-10.0.10.224:/volume2/TV-Shows /mnt/tv nfs defaults 0 0
+10.0.10.224:/volume2/Movies /mnt/data/media/movies nfs defaults 0 0
+10.0.10.224:/volume2/TV-Shows /mnt/data/media/tv nfs defaults 0 0
 10.0.10.235:/mnt/pompeii/primary_torrents /mnt/primary_torrents nfs defaults 0 0
 10.0.10.235:/mnt/pompeii/primary_torrents_tv /mnt/primary_torrents_tv nfs defaults 0 0
 10.0.10.235:/mnt/pompeii/usenet /mnt/usenet nfs defaults 0 0
+10.0.10.235:/mnt/Route66/container_volumes /mnt/container_data nfs defaults 0 0
