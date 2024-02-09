@@ -2,3 +2,4 @@
 10.0.10.224:/volume2/TV-Shows /mnt/media/tv nfs defaults 0 0
 10.0.10.235:/mnt/Route66/container_volumes /mnt/container_data nfs defaults 0 0
 10.0.10.235:/mnt/pompeii/data /mnt/data nfs defaults 0 0
+10.0.10.235:/mnt/pompeii/torrent /mnt/torrent nfs defaults 0 0
