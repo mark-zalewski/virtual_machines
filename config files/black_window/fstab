@@ -1,4 +1,5 @@
 10.0.10.224:/volume2/Movies /mnt/media/movies nfs defaults 0 0
+10.0.10.224:/volume2/Encoding /mnt/encoding nfs defaults 0 0
 10.0.10.224:/volume2/TV-Shows /mnt/media/tv nfs defaults 0 0
 10.0.10.235:/mnt/Route66/container_volumes /mnt/container_data nfs defaults 0 0
 10.0.10.235:/mnt/pompeii/data /mnt/data nfs defaults 0 0
