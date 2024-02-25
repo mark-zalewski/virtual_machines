@@ -1,5 +1,7 @@
 # Common VM Config Changes #
 ## Common packages to install on fresh install
+`apt update`
+
 `apt install qemu-guest-agent`
 
 `apt install nfs-common`
